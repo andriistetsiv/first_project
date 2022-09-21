@@ -9,9 +9,19 @@
   
 }
 
-.container__banner {
+.background_image {
     background-image: url(../img/header_img/header-bg.png);
     background-size: cover;
     width: 100%;
    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
 }
