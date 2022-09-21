@@ -4,7 +4,12 @@
     align-items: center;
     background-image: url(../img/header_img/header-bg.png);
     background-size: cover;
-    margin-left: 230px;;
+    background-position:  210px 0;
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(172,142,126)
+
+   
+ 
 }
 
 .home .background_image {
