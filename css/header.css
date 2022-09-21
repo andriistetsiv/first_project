@@ -17,6 +17,7 @@
     margin: 0.5rem;
     font-size: 16px;
     color: rgb(101, 101, 101);
+    font-weight: bold;
 }
 
 .header .navbar a:hover {
@@ -36,13 +37,6 @@
     color: rgb(103, 77, 119);
 }
 
-
-.background_image {
-    background-image: url(../img/header_img/header-bg.png);
-    background-size: cover;
-    width: 100%;
-   
-}
 
 /*Media queries */
 @media(max-width:991px) {

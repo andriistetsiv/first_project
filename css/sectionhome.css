@@ -1,0 +1,17 @@
+.home {
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/header_img/header-bg.png);
+    background-size: cover;
+    margin-left: 230px;;
+}
+
+.home .background_image {
+    max-width: 60rem;
+}
+
+.home .background_image .rental {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
