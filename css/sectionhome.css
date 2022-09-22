@@ -1,22 +1,55 @@
 .home {
     height: 150vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     background-image: url(../img/header_img/header-bg.png);
     background-size: cover;
     background-position:  210px 0;
     background-repeat: no-repeat, repeat;
-    background-color: rgb(172,142,126)
+    background-color: rgb(172,142,126);
+    padding: 9rem 4%;
 
-   
- 
 }
 
-.home .background_image {
-    max-width: 60rem;
-}
-
-.home .background_image .rental {
-    font-size: 4rem;
+.rental {
+    font-size: 12px;
     text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(223,223,223);
+    height: 19.19px;
+    width: 360.6px;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+}
+
+.main__text__home {
+    font-size: 6rem;
+    font-weight: 900;
+    color: rgb(255 255 255);
+    font-size: 63px;
+    transition: .2s linear;
+}
+
+.text__home {
+    color: rgb(192, 4, 7);
+    font-weight: 700;
+    font-weight: bolder;
+}
+
+.subheading__text__home {
+    color: rgb(223,223,223);
+    font-size: 17px;
+    box-sizing: border-box;
+    margin-top: 21px;
+    margin-bottom: 78px;
+}
+
+.banner__button {
+    background-color: rgb(192, 4, 7);
+    padding: 19px 36px;
+    color: rgb(255 255 255);
+    font-weight: bolder;
+
 }
