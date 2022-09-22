@@ -53,3 +53,19 @@
     font-weight: bolder;
 
 }
+
+.banner__button :hover {
+    background-color: rgb(34,34,34);
+    cursor: pointer;
+}
+
+.header__services {
+    display: flex;
+  
+}
+
+.paper_image {
+    color: rgb(192, 4, 7);
+    fill: rgb(192, 4, 7);
+    height: 3.5rem;
+}
