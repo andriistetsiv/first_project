@@ -9,7 +9,7 @@
    
     border-radius: 20px;
     height:  40rem;
-    width: 35rem;
+    width: 100.5vh;
 
 }
 
@@ -88,3 +88,4 @@ h2 {
 .headertext__benefits {
     line-height: 1.5;
 }
+
