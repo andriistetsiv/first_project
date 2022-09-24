@@ -1,21 +1,90 @@
 .sectionabout {
     display: flex;
-    margin-left: 15px;
+    margin-left: 40px;
+    margin-right: 50px;
  
 }
 
 .image__about {
+   
     border-radius: 20px;
+    height:  40rem;
+    width: 35rem;
 
 }
 
 .red-icon {
     display: inline;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 24px;
     margin-right: 15px; 
 }
 
 .about_heading {
     width: 600px;
+    box-sizing: border-box;
+    margin-left: 35px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+h4 {
+   color: #c00407;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-family: inherit;
+   margin-bottom: 28px;
+   margin-top: 28px;
+}
+
+h2 {
+    color: rgba(34, 34, 34);
+    font-size: 37px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 25px;
+}
+
+.describe__about {
+    color: rgba(101, 101, 101);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.main-text__about {
+    color: rgba(140, 140, 140);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    margin-bottom: 40px;
+    
+}
+
+.headertext__benefits {
+    font-weight: bold;
+    color: rgba(34, 34, 34);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+.main-text__about {
+    color: rgba(140, 140, 140);
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+.benefits {
+    display: flex;
+}
+
+.main-text__about {
+    line-height: 1.5;
+}
+
+.subbenefits {
+    line-height: 1.5;
+}
+
+.headertext__benefits {
+    line-height: 1.5;
 }
