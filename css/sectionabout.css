@@ -99,25 +99,20 @@ h2 {
     grid-auto-rows: 368px;
     gap: 25px;
     
-  
-
 }
 .indulgo-image {
     background-image: url(../img/sectionabout/Indulgo.png);
     background-size: 100% 100%;
     width: 90%;
     height: 328px;
-    text-align: left;
+    text-align: center;
     border-radius: 20px;
     background-repeat: no-repeat;
     padding: 10px;
     margin-left: 40px;
     margin-top: 70px;
  
-
 }
-
- 
 
 
 .espresso-image {
@@ -129,4 +124,61 @@ h2 {
     height: 328px;
     margin-right: 45px;
     border-radius: 20px;
+    padding: 45px;
 }
+
+.maintext_indulgo {
+    font-size: 37px;
+    color: rgba(34, 34, 34);
+    font-family: Poppins, sans-serif;
+    margin-top: 40px;
+
+}
+
+.main__z {
+    color: rgb(192 4 7);
+}
+
+.aboutline {
+    color:  rgb(192 4 7);
+    width: 9%;
+    height: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.indulgo_paragraph{
+    color: rgba(41, 40, 40, 0.8);
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.maintext_cb {
+    font-family: Poppins, sans-serif;
+    color: rgb(255 255 255);
+    font-size: 37px;
+   
+}
+
+.cb_paragraph {
+    color: rgb(255 255 255);
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.main__cb {
+    color: rgb(192 4 7);
+    font-size: 37px;
+}
+
+.pfeil {
+    color: rgb(192, 4, 7);
+    font-size: 12px;
+}
+
+.espresso_order {
+     color: rgb(255, 255, 255);
+     font-size: 12px;
+     margin-top: 30px;
+}
+
