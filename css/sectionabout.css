@@ -8,7 +8,7 @@
 .image__about {
    
     border-radius: 20px;
-    height:  40rem;
+    height:  38rem;
     width: 100.5vh;
 
 }
@@ -89,3 +89,44 @@ h2 {
     line-height: 1.5;
 }
 
+/* Under about */
+
+
+
+.coffee-beans__image {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 368px;
+    gap: 25px;
+    
+  
+
+}
+.indulgo-image {
+    background-image: url(../img/sectionabout/Indulgo.png);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 328px;
+    text-align: left;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 70px;
+ 
+
+}
+
+ 
+
+
+.espresso-image {
+    background-image: url(../img/sectionabout/CoffeeBeans.png);
+    margin-top: 70px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 328px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
