@@ -1,0 +1,57 @@
+h4 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 12px;
+}
+
+.definition__steps {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(34, 34, 34);
+    font-size: 37px;
+    font-family: Poppins;
+}
+
+.main__paragraph {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(101 101 101);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+.blocks__steps {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.img__steps {
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.header__steps {
+    color: rgb(34, 34, 34);
+    font-size: 19px;
+    font-family: Roboto Medium;
+}
+
+.numberof__steps {
+    color: rgb(192, 4, 7);
+    font-size: 19px;
+}
+
+.textof__select {
+    color: rgb(140, 140, 140);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
