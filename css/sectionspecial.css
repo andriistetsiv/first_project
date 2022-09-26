@@ -1,0 +1,88 @@
+.special {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(../img/sectionspecial/backgraund.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-size: cover;
+   
+}
+
+.defenition__special {
+    padding-left: 45px;
+    text-align: left;
+   
+}
+
+.namesection {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 12px;
+    font-family: Roboto;
+}
+
+.head__special {
+    color: rgb(255, 255, 255);
+    font-size: 63px;
+    font-family: Poppins;
+    line-height: 1;
+    padding-bottom: 45px;
+    line-height: 1.2;
+}
+
+.paragraph__specail {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+.image_special {
+    text-align: center;
+   
+}
+
+.img__special {
+    width: 465px;
+    height: 526px;
+}
+
+.link__rent {
+    font-weight: 800;
+    max-width: 100%;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    padding: 16px 25px;
+    background: #fff;
+}
+
+.link__characteristics {
+   
+    font-weight: 800;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    padding: 15px 20px;
+    background: rgb(192, 4, 7);
+    border: 2px solid;
+    margin-left: 26px;
+}
+
+.link__characteristics:hover {
+    color: rgb(255, 255, 255);
+    background: black;
+}
+
+.link__rent:hover {
+    background-color: black;
+    color: #fff;
+}
