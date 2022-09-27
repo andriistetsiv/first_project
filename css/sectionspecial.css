@@ -86,3 +86,35 @@
     background-color: black;
     color: #fff;
 }
+
+
+
+
+.nav_logo-container {
+    width: 1400px;
+    height: 140px;
+    background-color:  #222;;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+ 
+
+}
+
+.image__tepeofcofffee {
+    width: 150px;
+    align-items: center;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.slider_logo-img {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
