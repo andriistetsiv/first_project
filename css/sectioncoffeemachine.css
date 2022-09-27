@@ -1,0 +1,65 @@
+.header__cf {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 12px;
+}
+
+.main_text_cm {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(34, 34, 34);
+    font-size: 37px;
+    font-family: Poppins;
+}
+
+.paragraph__cm {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(101 101 101);
+    font-family: Roboto;
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+
+.blocks_cm {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.image__cm {
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.nameof__cm {
+    color: rgb(34, 34, 34);
+    font-size: 22px;
+    font-family: Popins, sans-serif;
+    text-align: left;
+    margin-top: 24px;
+   
+}
+
+.priceof__cm {
+    text-align: left;
+    color: rgb(192, 4, 7);
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    width: 95px;
+    margin-bottom: 34px;
+    margin-top: 20px;
+}
+
+.button__cm {
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    padding: 10px 17px;
+    background: rgb(192, 4, 7);
+}
