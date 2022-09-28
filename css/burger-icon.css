@@ -11,11 +11,11 @@
     display: none;
 }
 
-#burger-checkbox :checked ~ .navbar {
+#burger-checkbox:checked ~ .navbar {
     display: flex;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
     .burger-icon {
         display: none;
     }
