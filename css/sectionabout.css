@@ -10,10 +10,6 @@
     height: 400px;
 }
 
-.about_heading {
-
-}
-
 .main__about {
     color: #c00407;
     text-transform: uppercase;
@@ -76,6 +72,77 @@
     line-height: 1.5;
 }
 
+.indulgo-image {
+    background-image: url(../img/sectionabout/Indulgo.png);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 328px;
+    text-align: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+
+.maintext_indulgo {
+    font-size: 37px;
+    color: rgba(34, 34, 34);
+    font-family: Poppins, sans-serif;
+    margin-top: 40px;
+}
+
+.main__z {
+    color: rgb(192 4 7);
+}
+
+.indulgo_paragraph{
+    color: rgba(41, 40, 40, 0.8);
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.espresso-image {
+    background-image: url(../img/sectionabout/CoffeeBeans.png);
+    margin-top: 70px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 310px;
+    margin-left: 4%;
+    border-radius: 20px;
+    padding: 45px;
+    width: 90%;
+}
+
+.maintext_cb {
+    font-family: Poppins, sans-serif;
+    color: rgb(255 255 255);
+    font-size: 31px;
+}
+
+.cb_paragraph {
+    color: rgb(255 255 255);
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.main__cb {
+    color: rgb(192 4 7);
+    font-size: 37px;
+}
+
+.espresso_order {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+/* Section underabout */
+
+
 @media (min-width: 770px) {
     
 .sectionabout {
@@ -116,13 +183,6 @@
    font-family: Roboto;
    font-weight: 700;
    margin-top: 30px;
-}
-
-h2 {
-    color: rgba(34, 34, 34);
-    font-size: 37px;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 25px;
 }
 
 .describe__about {
@@ -171,8 +231,6 @@ h2 {
 
 /* Under about */
 
-
-
 .coffee-beans__image {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -180,39 +238,12 @@ h2 {
     gap: 25px;
     
 }
-.indulgo-image {
-    background-image: url(../img/sectionabout/Indulgo.png);
-    background-size: 100% 100%;
-    width: 90%;
-    height: 328px;
-    text-align: center;
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    padding: 10px;
-    margin-left: 40px;
-    margin-top: 70px;
- 
-}
-
-
-.espresso-image {
-    background-image: url(../img/sectionabout/CoffeeBeans.png);
-    margin-top: 70px;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 328px;
-    margin-right: 45px;
-    border-radius: 20px;
-    padding: 45px;
-}
 
 .maintext_indulgo {
     font-size: 37px;
     color: rgba(34, 34, 34);
     font-family: Poppins, sans-serif;
     margin-top: 40px;
-
 }
 
 .main__z {
@@ -226,29 +257,16 @@ h2 {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.indulgo_paragraph{
-    color: rgba(41, 40, 40, 0.8);
-    font-size: 16px;
-    font-family: Roboto;
-}
+
 
 .maintext_cb {
     font-family: Poppins, sans-serif;
     color: rgb(255 255 255);
     font-size: 37px;
-   
 }
 
-.cb_paragraph {
-    color: rgb(255 255 255);
-    font-family: Poppins, sans-serif;
-    font-size: 22px;
-    margin-top: 40px;
-}
-
-.main__cb {
-    color: rgb(192 4 7);
-    font-size: 37px;
+.espresso-image {
+    height: 330px;
 }
 
 .pfeil {
