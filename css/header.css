@@ -56,7 +56,22 @@
     margin-right: 20px;
 }
 
+.burger {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
 
+.burger__span {
+    width: 26px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+
+}
 
 }
 
