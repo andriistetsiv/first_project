@@ -76,8 +76,27 @@
 }
 
 @media (max-width: 1014px) {
+    .navbar {
+        position: fixed;
+        top: 100px;
+        right: 1;
+        z-index: 1000;
+        background-color: white;
+      
+
+    }
+
     .main-navbar {
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    .product-list-text {
+        margin-bottom: 20px;
     }
 
     .header-icon {
