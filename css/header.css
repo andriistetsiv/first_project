@@ -1,27 +1,13 @@
 
-
-@media(min-width:491px) {
-
-
-
-.header {
+.header__container {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
-
-
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-}
-
-.header .logo img {
+.logo-image {
     height: 3.5rem;
 }
 
@@ -30,21 +16,17 @@
     justify-content: space-around;
 }
 
-.header .navbar a:hover {
+.main-navbar :hover {
     color: rgb(184, 12, 12);
     border-bottom: .1rem solid rgb(184, 12, 12);
     padding-bottom: .5rem;
 }
 
-.header .header-icon img {
+.header-icon img {
     color: rgb(246, 26, 26);
     cursor: pointer;
     font-size: 3.4rem;
     margin-left: .5rem;
-}
-
-.header .header-icon img:hover {
-    color: rgb(103, 77, 119);
 }
 
 .product-list-text {
@@ -58,20 +40,56 @@
 
 .burger {
     width: 30px;
-    height: 30px;
+    height: 25px;
     position: relative;
+    display: none;
+    padding: 0;
+    background-color: transparent;
+
 }
 
 .burger__span {
-    width: 26px;
-    height: 3px;
     position: absolute;
-    background-color: black;
+    left: 0;
     top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.burger::before,
+.burger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.burger::before {
+    top: 0;
+}
+
+.burger::after {
+    bottom: 0;
+}
+
+@media (max-width: 1014px) {
+    .main-navbar {
+        position: relative;
+    }
+
+    .header-icon {
+        display: none;
+    }
+    
+    .burger {
+        display: block;
+    }
+
+
 
 }
 
-}
 
