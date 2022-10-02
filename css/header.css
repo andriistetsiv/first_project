@@ -7,6 +7,12 @@
     margin-bottom: 20px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .logo-image {
     height: 3.5rem;
 }
@@ -14,6 +20,7 @@
 .header-icon {
     display: flex;
     justify-content: space-around;
+ 
 }
 
 .main-navbar :hover {
@@ -102,7 +109,7 @@
     }
 
     .navbar {
-        position: fixed;rotate: ;
+        position: fixed;
         top: 100px;
         right: 1;
         z-index: 1000;
@@ -113,6 +120,7 @@
         transition: transform 0.6s ease-in-out ;
         height: calc(250vh - 100px);
         overflow-y: auto;
+        display: block;
     }
 
     .navbar--visible {
@@ -136,14 +144,19 @@
     }
 
     .header-icon {
-        display: none;
+        justify-content: center;
+        padding: 50px;
     }
     
     .burger {
         display: block;
     }
 
+    .social_network_icon {
+        margin-left: 10px;
+        margin-right: 10px;
 
+    }
 
 }
 
