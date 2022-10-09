@@ -1,3 +1,4 @@
+(function () {
 const burger =  document?.querySelector('.burger');
 const navbar =  document?.querySelector('.navbar');
 const body = document.body
@@ -16,3 +17,4 @@ navItems. forEach(el => {
         navbar.classList.remove('navbar--visible');
     })
 })
+})()

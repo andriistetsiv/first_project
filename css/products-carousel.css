@@ -1,0 +1,31 @@
+.product__slide {
+    width: 150px;
+    align-items: center;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.products-carousel__slides {
+    width: 1263px;
+    min-height: 140px;
+   
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.products-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.prev__button {
+    width: 36px;
+    height: 48px;
+    background-color: rgb(34, 34, 34);
+}
