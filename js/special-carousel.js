@@ -33,6 +33,16 @@
       currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
       renderCarousel();
     }
-    setInterval(next, 3000);
+
+    function prev() {
+      currentSlideIdx = currentSlideIdx -1  < 0 ? slides.length -1 : currentSlideIdx - 1;
+      renderCarousel();
+    }
+
+    const nextButton = document.querySelector('.next_button')
+    nextButton.addEventListener('click', next);
+
+    const prevButton = document.querySelector('.prev__button')
+    prevButton.addEventListener('click', prev)
 
     renderCarousel()

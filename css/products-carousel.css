@@ -8,13 +8,9 @@
 }
 
 .products-carousel__slides {
-    width: 1263px;
-    min-height: 140px;
-   
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 150px;
     align-items: center;
+    height: 50px;
 }
 
 .products-carousel {
