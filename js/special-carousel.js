@@ -1,25 +1,25 @@
 
     const slides = [
         `<div class="product__slide">
-           <img src="img/sectionspecial/costa.png">
+           <img class="img_carousel" src="img/sectionspecial/costa.png">
         </div>`,
         `<div class="product__slide">
-           <img src="img/sectionspecial/Folgers.png">
+           <img class="img_carousel" src="img/sectionspecial/Folgers.png">
         </div>`,
         `<div class="product__slide">
-           <img src="img/sectionspecial/Frontier.png">
+           <img class="img_carousel" src="img/sectionspecial/Frontier.png">
         </div>`,
         `<div class="product__slide">
-           <img src="img/sectionspecial/Green Mountain.png">
+           <img class="img_carousel" src="img/sectionspecial/Green Mountain.png">
         </div>`,
         `<div class="product__slide">
-           <img src="img/sectionspecial/Lavazza.png">
+           <img class="img_carousel" src="img/sectionspecial/Lavazza.png">
         </div>`,
         `<div class="product__slide">
-           <img src="img/sectionspecial/melitta.png">
+           <img class="img_carousel" src="img/sectionspecial/melitta.png">
         </div>`,
         `<div class="product__slide">
-          <img src="img/sectionspecial/monarch.png">
+          <img class="img_carousel" src="img/sectionspecial/monarch.png">
         </div>`
       ];
 
@@ -28,6 +28,14 @@
     function renderCarousel() {
       const sliderContainer = document.querySelector('.products-carousel__slides');
       sliderContainer.innerHTML = slides[currentSlideIdx];
+      if (window.innerWidth > 479) {
+         const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+         sliderContainer.innerHTML += slides[secondSlideIdx];
+         if (window.innerWidth > 767) {
+            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+            sliderContainer.innerHTML += slides[thirdSlideIdx];
+         }
+      }
     }
     function next() {
       currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
@@ -46,3 +54,5 @@
     prevButton.addEventListener('click', prev)
 
     renderCarousel()
+
+    window. addEventListener('resize', renderCarousel)
