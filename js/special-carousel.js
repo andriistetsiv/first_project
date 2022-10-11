@@ -28,12 +28,20 @@
     function renderCarousel() {
       const sliderContainer = document.querySelector('.products-carousel__slides');
       sliderContainer.innerHTML = slides[currentSlideIdx];
-      if (window.innerWidth > 479) {
+      if (window.innerWidth > 379) {
          const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
          sliderContainer.innerHTML += slides[secondSlideIdx];
-         if (window.innerWidth > 767) {
-            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+         if (window.innerWidth > 570) {
+            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
             sliderContainer.innerHTML += slides[thirdSlideIdx];
+            if (window.innerWidth > 889) {
+               const fourthSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx +1;
+               sliderContainer.innerHTML += slides[fourthSlideIdx]
+               if (window.innerWidth > 1000) {
+                  const fifthSlideIdx = fourthSlideIdx + 1 >= slides.length ? 0 : fourthSlideIdx +1;
+                  sliderContainer.innerHTML += slides[fifthSlideIdx]
+               }
+            }
          }
       }
     }
