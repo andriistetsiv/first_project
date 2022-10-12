@@ -1,4 +1,4 @@
-
+(function () {
     const slides = [
         `<div class="product__slide">
            <img class="img_carousel" src="img/sectionspecial/costa.png">
@@ -64,3 +64,7 @@
     renderCarousel()
 
     window. addEventListener('resize', renderCarousel)
+
+
+})()
+    
