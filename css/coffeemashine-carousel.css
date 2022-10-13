@@ -1,0 +1,29 @@
+.coffee_mashine-carousel {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image__cm-carousel {
+    width: 353px;
+    height: 352px;
+    padding: 20px;
+}
+
+.coffee-mashine__slides {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select_cm {
+    display: block;
+}
+
+@media (min-width: 1090px) {
+    .image__cm-carousel {
+        width: 260px;
+        height: 220px;
+        padding: 15px;
+    }
+}
